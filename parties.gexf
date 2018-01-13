@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="name" type="string" />
+      <attribute id="1" title="p_vote" type="double" />
+      <attribute id="2" title="comm" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>13/01/2018</lastmodified>
+    </meta>
+    <nodes>
+      <node id="Joint List" label="Joint List">
+        <attvalues>
+          <attvalue for="0" value="Joint List" />
+          <attvalue for="1" value="0.10605445317420285" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </node>
+      <node id="Kulanu" label="Kulanu">
+        <attvalues>
+          <attvalue for="0" value="Kulanu" />
+          <attvalue for="1" value="0.0748916379553557" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Likud" label="Likud">
+        <attvalues>
+          <attvalue for="0" value="Likud" />
+          <attvalue for="1" value="0.23401452046648638" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Meretz" label="Meretz">
+        <attvalues>
+          <attvalue for="0" value="Meretz" />
+          <attvalue for="1" value="0.03930979813264863" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Shas" label="Shas">
+        <attvalues>
+          <attvalue for="0" value="Shas" />
+          <attvalue for="1" value="0.05737821322078689" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="The Jewish Home" label="The Jewish Home">
+        <attvalues>
+          <attvalue for="0" value="The Jewish Home" />
+          <attvalue for="1" value="0.06742289742486376" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="United Torah Judaism" label="United Torah Judaism">
+        <attvalues>
+          <attvalue for="0" value="United Torah Judaism" />
+          <attvalue for="1" value="0.04990472309377318" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Yesh Atid" label="Yesh Atid">
+        <attvalues>
+          <attvalue for="0" value="Yesh Atid" />
+          <attvalue for="1" value="0.0882479783342405" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Yisrael Beiteinu" label="Yisrael Beiteinu">
+        <attvalues>
+          <attvalue for="0" value="Yisrael Beiteinu" />
+          <attvalue for="1" value="0.051035839505434014" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="Zionist Union" label="Zionist Union">
+        <attvalues>
+          <attvalue for="0" value="Zionist Union" />
+          <attvalue for="1" value="0.18673347449134195" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Kulanu" target="Likud" weight="1.111570113068801" />
+      <edge id="1" source="Kulanu" target="Shas" weight="0.6777222356982903" />
+      <edge id="2" source="Kulanu" target="Yesh Atid" weight="0.8287396535739723" />
+      <edge id="3" source="Kulanu" target="Yisrael Beiteinu" weight="0.6776155643990784" />
+      <edge id="4" source="Likud" target="Shas" weight="0.8987250565467141" />
+      <edge id="5" source="Likud" target="The Jewish Home" weight="0.689023862495986" />
+      <edge id="6" source="Likud" target="Yisrael Beiteinu" weight="0.7246377683807086" />
+      <edge id="7" source="Meretz" target="Yesh Atid" weight="0.6966434173785242" />
+      <edge id="8" source="Meretz" target="Zionist Union" weight="1.0824181989594706" />
+      <edge id="9" source="Shas" target="United Torah Judaism" weight="0.8983318432062766" />
+      <edge id="10" source="Shas" target="Yisrael Beiteinu" weight="0.6386156697759428" />
+      <edge id="11" source="Yesh Atid" target="Zionist Union" weight="1.1251508629515863" />
+    </edges>
+  </graph>
+</gexf>
